@@ -1,6 +1,6 @@
 {% set name = "pydata-google-auth" %}
-{% set version = "0.2.1" %}
-{% set sha256 = "6f36f84bde035b8f4e406907f20be2ed8d7e8afb935a27a5180cb57d4fc23c71" %}
+{% set version = "0.3.0" %}
+{% set sha256 = "b0a7227f14ecdf3c613cc8f9f3e3e0a92dafb67445551fe77b7f65b143d619ba" %}
 
 package:
   name: {{ name|lower }}
@@ -11,7 +11,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 0
   noarch: python
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed --no-cache-dir -vvv"
 
