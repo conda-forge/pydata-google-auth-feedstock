@@ -1,6 +1,6 @@
 {% set name = "pydata-google-auth" %}
-{% set version = "1.5.0" %}
-{% set sha256 = "ae3a752a07d91c055a6cf5bb5972277099b2172b8ae5650e4349e15be68609f7" %}
+{% set version = "1.6.0" %}
+{% set sha256 = "7b1d689fa99b00252bbf2901cdfa62d12b779025da635c0fe492d4927aa22d9b" %}
 
 package:
   name: {{ name|lower }}
@@ -47,4 +47,5 @@ about:
 extra:
   recipe-maintainers:
     - leahecole
+    - chalmerlowe
     - tswast
