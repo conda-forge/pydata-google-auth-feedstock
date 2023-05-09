@@ -1,11 +1,11 @@
-About pydata-google-auth
-========================
+About pydata-google-auth-feedstock
+==================================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pydata-google-auth-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/pydata/pydata-google-auth
 
 Package license: BSD-3-Clause
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/pydata-google-auth-feedstock/blob/main/LICENSE.txt)
 
 Summary: Helpers for authenticating to Google APIs from Python.
 
