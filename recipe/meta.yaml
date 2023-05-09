@@ -1,6 +1,6 @@
 {% set name = "pydata-google-auth" %}
-{% set version = "1.7.0" %}
-{% set sha256 = "87710d964898d2ddf56a9c4ddc9109a69279856596c3848408bdeb3a58fa3b8c" %}
+{% set version = "1.8.0" %}
+{% set sha256 = "8a093294bbae6de980a83794345b634b163f7374fa9d84c7b0059ea4b2001700" %}
 
 package:
   name: {{ name|lower }}
