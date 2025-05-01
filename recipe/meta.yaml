@@ -1,5 +1,5 @@
 {% set name = "pydata-google-auth" %}
-{% set version = "1.9.0" %}
+{% set version = "1.9.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,9 +7,9 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/pydata-google-auth-{{ version }}.tar.gz
-  sha256: 2f546e88f007dfdb050087556eb46d6008e351386a7b368096797fae5df374f2
+  sha256: 0a51ce41c601ca0bc69b8795bf58bedff74b4a6a007c9106c7cbcdec00eaced2
 
-build:  
+build:
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
   number: 0
